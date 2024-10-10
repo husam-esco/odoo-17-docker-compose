@@ -11,7 +11,7 @@ services:
     volumes:
         - ./postgresql:/var/lib/postgresql/data
     ports:
-        - "5174:5432"
+        - "5105:5432"
   odoo17:
     image: odoo:17
     user: root
