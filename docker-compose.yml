@@ -18,8 +18,8 @@ services:
     depends_on:
       - db
     ports:
-      - "17004:8069"
-      - "27004:8072" # live chat
+      - "17105:8069"
+      - "27005:8072" # live chat
     tty: true
     command: --
     environment:
